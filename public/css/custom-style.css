@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "NeueMontreal-Regular";
-  font-weight: 300;
+  font-weight: 200;
   src: url("../fonts/NeueMontreal-Regular.otf");
 }
 
@@ -574,9 +574,7 @@ ul {
   overflow: auto;
   display: none;
 }
-.section-modal.open {
-  display: block;
-}
+
 
 @media (max-width: 768px) {
   .section-modal.open {
@@ -678,7 +676,7 @@ ul {
 }
 
 .masonry-container img {
-  display: block;
+  
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   border: 1px solid #8158e8;
@@ -882,6 +880,9 @@ ul {
   padding-top: 10rem;
   padding-left: 6rem;
 }
+.section-a { 
+  padding-left: 6rem;
+}
 
 .space {
   padding-top: 10rem;
@@ -891,8 +892,16 @@ ul {
   padding-bottom: 10rem;
 }
 
+.pa-t {
+  padding-top: 2rem;
+}
+
 .size {
   width: 86%;
+}
+
+.imgp {
+  padding-top: 50px;
 }
 
 .square-l {
@@ -935,13 +944,20 @@ ul {
 .li {
   font-size: 310%;
   font-family: "NeueMontreal-Regular", sans-serif !important;
-  font-weight: 100;
+  font-weight: 200;
+}
+
+.li-2 {
+  font-size: 320%;
+  font-family: "NeueMontreal-Regular", sans-serif !important;
+  font-weight: 200;
 }
 
 .li-b {
-  font-size: 245%;
-  font-family: "NeueMontreal-Regular", sans-serif !important;
+  font-size: 240%;
+  font-family: "NeueMontreal-Regular", sans-serif;
   font-weight: 100;
+  line-height: normal;
 }
 
 .square-g {
@@ -967,6 +983,30 @@ ul {
   height: fixed 545px;
   padding: 48px;
   border-radius: 24.537979125976562px
+} 
+
+.square-g {
+  width: 1002px;
+  box-sizing: #ABFDCC;
+  background-color: #ABFDCC;
+  color:#000;
+  border: 3.271730661392212px solid var(--black);
+  border-radius: 25px 25px 25px 25px;
+  height: fixed 545px;
+  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+  border-radius: 24.537979125976562px
+}
+
+.square-k {
+  width: 1002px;
+  box-sizing: #FFDC25;
+  background-color: #FFDC25;
+  color:#000;
+  border: 3.271730661392212px solid var(--black);
+  border-radius: 25px 25px 25px 25px;
+  height: fixed 545px;
+  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+  border-radius: 24.537979125976562px
 }
 
 .square {
@@ -981,8 +1021,20 @@ ul {
   border-radius: 24.537979125976562px
 }
 
+.vesti {
+  
+  height: 700px;
+  background-image: url("../img/info/vestimenta.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .square-c {
   text-align:center;
+}
+
+.square-z {
+
 }
 
 .font-title {
