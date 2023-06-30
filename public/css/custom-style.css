@@ -860,192 +860,537 @@ ul {
   height: 1.5rem;
 }
 
-.footerbg{
-  background-color: #000;
-}
 
-.ticketbutton {
-  background-image: url("../img/ticket.svg");
-}
-
-.about-i {
-  background-image: url("../img/about.jpg");
-}
-
-.center{
-  padding-left: 13%;
-}
-
-.section-i { 
-  padding-top: 10rem;
-  padding-left: 6rem;
-}
-.section-a { 
-  padding-left: 6rem;
-}
-
-.space {
-  padding-top: 10rem;
-}
-
-.space-b {
-  padding-bottom: 10rem;
-}
-
-.pa-t {
-  padding-top: 2rem;
-}
-
-.size {
-  width: 86%;
-}
-
-.imgp {
-  padding-top: 50px;
-}
-
-.square-l {
-  box-sizing: #ABFDCC;
-  width: 700px;
-  margin-left: 10%;
-  padding: 15px;
-  background-color: #ABFDCC;
-  border-radius: 30px 40px 30px 40px;
-  border: 3.271730661392212px solid var(--black);
-  color:#000;
-}
-
-.cur {
-  font-family: "NeueMontreal-BoldItalic", sans-serif !important;
-  font-size: 320%;
-  font:bold;
-  text-decoration: underline;
-}
-
-.bold-b {
-  font-family: "NeueMontreal-Bold", sans-serif !important;
-  font-size: 310%;
-  font:bold;
-  font-weight: 900;
-  margin-top: -50px;
-}
-
-.bold-c {
-  font-family: "NeueMontreal-Bold", sans-serif !important;
-  font-size: 240%;
-  font:bold;
-  font-weight: 900;
-}
-
-.bottom {
-  margin-top: -20px;
-}
-
-.li {
-  font-size: 310%;
-  font-family: "NeueMontreal-Regular", sans-serif !important;
-  font-weight: 200;
-}
-
-.li-2 {
-  font-size: 320%;
-  font-family: "NeueMontreal-Regular", sans-serif !important;
-  font-weight: 200;
-}
-
-.li-b {
-  font-size: 240%;
-  font-family: "NeueMontreal-Regular", sans-serif;
-  font-weight: 100;
-  line-height: normal;
-}
-
-.square-g {
-  width: 1002px;
-  box-sizing: #ABFDCC;
-  background-color: #ABFDCC;
-  color:#000;
-  border: 3.271730661392212px solid var(--black);
-  border-radius: 25px 25px 25px 25px;
-  height: fixed 545px;
-  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
-  border-radius: 24.537979125976562px
-}
-
-.square-b {
-  width: 1002px;
-  height: 530px;
-  box-sizing: #FFE1AD;
-  background-color: #FFE1AD;
-  color:#000;
-  border: 3.271730661392212px solid var(--black);
-  border-radius: 25px 25px 25px 25px;
-  height: fixed 545px;
-  padding: 48px;
-  border-radius: 24.537979125976562px
-} 
-
-.square-g {
-  width: 1002px;
-  box-sizing: #ABFDCC;
-  background-color: #ABFDCC;
-  color:#000;
-  border: 3.271730661392212px solid var(--black);
-  border-radius: 25px 25px 25px 25px;
-  height: fixed 545px;
-  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
-  border-radius: 24.537979125976562px
-}
-
-.square-k {
-  width: 1002px;
-  box-sizing: #FFDC25;
-  background-color: #FFDC25;
-  color:#000;
-  border: 3.271730661392212px solid var(--black);
-  border-radius: 25px 25px 25px 25px;
-  height: fixed 545px;
-  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
-  border-radius: 24.537979125976562px
-}
-
-.square {
-  width: 900px;
-  box-sizing: var(--off-purple);
-  background-color: #fff;
-  color:#000;
-  border: 3.271730661392212px solid var(--black);
-  border-radius: 25px 25px 25px 25px;
-  height: fixed 545px;
-  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
-  border-radius: 24.537979125976562px
-}
-
-.vesti {
+@media only screen and (min-width: 1300px) {
+  .center{
+    padding-left: 13%;
+  }
   
-  height: 700px;
-  background-image: url("../img/info/vestimenta.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  .section-i { 
+    padding-top: 10rem;
+    padding-left: 6rem;
+  }
+  .section-a { 
+    padding-left: 6rem;
+  }
+  
+  .space {
+    padding-top: 10rem;
+  }
+  
+  .space-b {
+    padding-bottom: 10rem;
+  }
+  
+  .pa-t {
+    padding-top: 2rem;
+  }
+  
+  .size {
+    width: 86%;
+  }
+  
+  .imgp {
+    padding-top: 50px;
+  }
+  
+  .square-l {
+    box-sizing: #ABFDCC;
+    width: 700px;
+    margin-left: 10%;
+    padding: 15px;
+    background-color: #ABFDCC;
+    border-radius: 30px 40px 30px 40px;
+    border: 3.271730661392212px solid var(--black);
+    color:#000;
+  }
+  
+  .cur {
+    font-family: "NeueMontreal-BoldItalic", sans-serif !important;
+    font-size: 320%;
+    font:bold;
+    text-decoration: underline;
+  }
+  
+  .bold-b {
+    font-family: "NeueMontreal-Bold", sans-serif !important;
+    font-size: 310%;
+    font:bold;
+    font-weight: 900;
+    margin-top: -50px;
+  }
+  
+  .bold-c {
+    font-family: "NeueMontreal-Bold", sans-serif !important;
+    font-size: 240%;
+    font:bold;
+    font-weight: 900;
+  }
+  
+  .bottom {
+    margin-top: -20px;
+  }
+  
+  .li {
+    font-size: 310%;
+    font-family: "NeueMontreal-Regular", sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .li-2 {
+    font-size: 320%;
+    font-family: "NeueMontreal-Regular", sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .li-b {
+    font-size: 240%;
+    font-family: "NeueMontreal-Regular", sans-serif;
+    font-weight: 100;
+    line-height: normal;
+  }
+  
+  .square-g {
+    width: 1002px;
+    box-sizing: #ABFDCC;
+    background-color: #ABFDCC;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square-b {
+    width: 1002px;
+    height: 530px;
+    box-sizing: #FFE1AD;
+    background-color: #FFE1AD;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 48px;
+    border-radius: 24.537979125976562px
+  } 
+  
+  .square-g {
+    width: 1002px;
+    box-sizing: #ABFDCC;
+    background-color: #ABFDCC;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square-k {
+    width: 1002px;
+    box-sizing: #FFDC25;
+    background-color: #FFDC25;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square {
+    width: 900px;
+    box-sizing: var(--off-purple);
+    background-color: #fff;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .vesti {
+    
+    height: 700px;
+    background-image: url("../img/info/vestimenta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .square-c {
+    text-align:center;
+  }
+  
+  .square-z {
+  
+  }
+  
+  .font-title {
+    font-size: 600%;
+    font-weight: 900;
+  }
+  
+  .font-inf {
+    font-size: 350%;
+  }
+  
+  .tp {
+    margin-top: 15%;
+  }
+  
 }
 
-.square-c {
-  text-align:center;
+@media only screen and (min-width: 1200px) {
+  .center{
+    padding-left: 13%;
+  }
+  
+  .section-i { 
+    padding-top: 10rem;
+    padding-left: 3rem;
+  }
+  .section-a { 
+    padding-left: 6rem;
+  }
+  
+  .space {
+    padding-top: 10rem;
+  }
+  
+  .space-b {
+    padding-bottom: 10rem;
+  }
+  
+  .pa-t {
+    padding-top: 2rem;
+  }
+  
+  .size {
+    width: 86%;
+  }
+  
+  .imgp {
+    padding-top: 50px;
+  }
+  
+  .square-l {
+    box-sizing: #ABFDCC;
+    width: 700px;
+    margin-left: 10%;
+    padding: 15px;
+    background-color: #ABFDCC;
+    border-radius: 30px 40px 30px 40px;
+    border: 3.271730661392212px solid var(--black);
+    color:#000;
+  }
+  
+  .cur {
+    font-family: "NeueMontreal-BoldItalic", sans-serif !important;
+    font-size: 320%;
+    font:bold;
+    text-decoration: underline;
+  }
+  
+  .bold-b {
+    font-family: "NeueMontreal-Bold", sans-serif !important;
+    font-size: 310%;
+    font:bold;
+    font-weight: 900;
+    margin-top: -50px;
+  }
+  
+  .bold-c {
+    font-family: "NeueMontreal-Bold", sans-serif !important;
+    font-size: 240%;
+    font:bold;
+    font-weight: 900;
+  }
+  
+  .bottom {
+    margin-top: -20px;
+  }
+  
+  .li {
+    font-size: 310%;
+    font-family: "NeueMontreal-Regular", sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .li-2 {
+    font-size: 320%;
+    font-family: "NeueMontreal-Regular", sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .li-b {
+    font-size: 240%;
+    font-family: "NeueMontreal-Regular", sans-serif;
+    font-weight: 100;
+    line-height: normal;
+  }
+  
+  .square-g {
+    width: 1002px;
+    box-sizing: #ABFDCC;
+    background-color: #ABFDCC;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square-b {
+    width: 1002px;
+    height: 530px;
+    box-sizing: #FFE1AD;
+    background-color: #FFE1AD;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 48px;
+    border-radius: 24.537979125976562px
+  } 
+  
+  .square-g {
+    width: 1002px;
+    box-sizing: #ABFDCC;
+    background-color: #ABFDCC;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square-k {
+    width: 1002px;
+    box-sizing: #FFDC25;
+    background-color: #FFDC25;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square {
+    width: 900px;
+    box-sizing: var(--off-purple);
+    background-color: #fff;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .vesti {
+    
+    height: 700px;
+    background-image: url("../img/info/vestimenta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .square-c {
+    text-align:center;
+  }
+  
+  .square-z {
+  
+  }
+  
+  .font-title {
+    font-size: 600%;
+    font-weight: 900;
+  }
+  
+  .font-inf {
+    font-size: 350%;
+  }
+  
+  .tp {
+    margin-top: 15%;
+  }
+  
 }
 
-.square-z {
-
+@media only screen and (min-width: 1100px) {
+  .center{
+    padding-left: 13%;
+  }
+  
+  .section-i { 
+    padding-top: 10rem;
+  }
+  .section-a { 
+    padding-left: 6rem;
+  }
+  
+  .space {
+    padding-top: 10rem;
+  }
+  
+  .space-b {
+    padding-bottom: 10rem;
+  }
+  
+  .pa-t {
+    padding-top: 2rem;
+  }
+  
+  .size {
+    width: 86%;
+  }
+  
+  .imgp {
+    padding-top: 50px;
+  }
+  
+  .square-l {
+    box-sizing: #ABFDCC;
+    width: 700px;
+    margin-left: 10%;
+    padding: 15px;
+    background-color: #ABFDCC;
+    border-radius: 30px 40px 30px 40px;
+    border: 3.271730661392212px solid var(--black);
+    color:#000;
+  }
+  
+  .cur {
+    font-family: "NeueMontreal-BoldItalic", sans-serif !important;
+    font-size: 320%;
+    font:bold;
+    text-decoration: underline;
+  }
+  
+  .bold-b {
+    font-family: "NeueMontreal-Bold", sans-serif !important;
+    font-size: 310%;
+    font:bold;
+    font-weight: 900;
+    margin-top: -50px;
+  }
+  
+  .bold-c {
+    font-family: "NeueMontreal-Bold", sans-serif !important;
+    font-size: 240%;
+    font:bold;
+    font-weight: 900;
+  }
+  
+  .bottom {
+    margin-top: -20px;
+  }
+  
+  .li {
+    font-size: 310%;
+    font-family: "NeueMontreal-Regular", sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .li-2 {
+    font-size: 320%;
+    font-family: "NeueMontreal-Regular", sans-serif !important;
+    font-weight: 200;
+  }
+  
+  .li-b {
+    font-size: 240%;
+    font-family: "NeueMontreal-Regular", sans-serif;
+    font-weight: 100;
+    line-height: normal;
+  }
+  
+  .square-b {
+    width: 900px;
+    height: 530px;
+    box-sizing: #FFE1AD;
+    background-color: #FFE1AD;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 48px;
+    border-radius: 24.537979125976562px
+  } 
+  
+  .square-g {
+    width: 900px;
+    box-sizing: #ABFDCC;
+    background-color: #ABFDCC;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square-k {
+    width: 900px;
+    box-sizing: #FFDC25;
+    background-color: #FFDC25;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .square {
+    width: 800px;
+    box-sizing: var(--off-purple);
+    background-color: #fff;
+    color:#000;
+    border: 3.271730661392212px solid var(--black);
+    border-radius: 25px 25px 25px 25px;
+    height: fixed 545px;
+    padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+    border-radius: 24.537979125976562px
+  }
+  
+  .vesti {
+    
+    height: 700px;
+    background-image: url("../img/info/vestimenta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .square-c {
+    text-align:center;
+  }
+  
+  .square-z {
+  
+  }
+  
+  .font-title {
+    font-size: 600%;
+    font-weight: 900;
+  }
+  
+  .font-inf {
+    font-size: 350%;
+  }
+  
+  .tp {
+    margin-top: 15%;
+  }
+  
 }
 
-.font-title {
-  font-size: 600%;
-  font-weight: 900;
-}
-
-.font-inf {
-  font-size: 350%;
-}
-
-.tp {
-  margin-top: 15%;
+.bg-2 {
+  background-color: #FFEBC9;
 }
