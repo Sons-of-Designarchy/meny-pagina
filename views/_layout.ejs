@@ -1,10 +1,5 @@
 <%- include('_partials/begin', page) %>
-<%- include('_partials/nav', page) %>
-<% if (page.header) { %>
- <%- include(`${page.header}`) %>
-<% } %>
 <div class="page-content">
     <%- include(`${page.main}`) %>
 </div>
-<%- include('_partials/footer') %>
-<%- include('_partials/end') %>
+

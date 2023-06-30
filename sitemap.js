@@ -2,23 +2,9 @@
 
 module.exports = {
     '': {
-        title: "Plural",
+        title: "Meny",
         main: 'home/index',
         header: 'home/header',
         navColor: 'light'
     },
-    'music': {
-        title: "Musica-video",
-        main: 'musica_video/index',
-    },
-    'shows': {
-        title: "Musica-video",
-        main: 'show/index',
-    },
-    'about': {
-        title: "Musica-video",
-        main: 'about/index',
-    },
-
-    
 }

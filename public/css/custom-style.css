@@ -1,12 +1,12 @@
 :root {
   --orange: #F7931F;
-  --orange: #F7931F;
   --orange-light: #000000;
   --off-purple: #e9e4f5;
   --green: #d5fc6d;
   --green-flu: #d3fc66;
   --white: #ffffff;
   --black: #000;
+  --newcolor: #FFEBC9;
 }
 
 @font-face {
@@ -52,7 +52,7 @@ video {
 
 body {
   font-family: "glamour absolute regular", sans-serif;
-  color: var(--black);
+  color: var(--newcolor);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #e9e4f5;
@@ -74,11 +74,11 @@ h6 {
 a {
   cursor: hand;
   text-decoration: none;
-  color: var(--orange);
+  color: var(--black);
 }
 
 a:hover {
-  color: var(--orange);
+  color: var(--black);
 }
 
 .a-underline {
@@ -86,7 +86,7 @@ a:hover {
 }
 
 p {
-  color: #F7931F;
+  color: #000000;
   font-size: 19px;
   font-weight: 400;
   line-height: 165%;
@@ -296,8 +296,7 @@ ul {
 /* Shared css */
 
 .page-content {
-  padding-top: 59px;
-  background-color: #000;
+  background-color: var(--newcolor);
   background-size: cover;
 }
 
@@ -375,10 +374,11 @@ ul {
 }
 
 .bg {
-  background-image: url("../img/Header.svg");
+  background-image: url("../img/background/background.png");
   background-position: 100%;
-  background-size: cover;
+  background-size:100%;
   background-repeat: no-repeat;
+  padding-bottom: 6rem;
 }
 
 .header-p{
@@ -851,6 +851,35 @@ ul {
 .ticketbutton {
   background-image: url("../img/ticket.svg");
 }
+
 .about-i {
   background-image: url("../img/about.jpg");
+}
+
+.center{
+  padding-left: 13%;
+}
+
+.section-i { 
+  padding-top: 10rem;
+  padding-left: 6rem;
+}
+
+.space {
+  padding-top: 10rem;
+}
+
+.space-b {
+  padding-bottom: 10rem;
+}
+
+.size {
+  width: 86%;
+}
+
+.square {
+  width: 945px;
+  box-sizing: var(--off-purple);
+  background-color: #fff;
+  color:#000;
 }
