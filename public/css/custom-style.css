@@ -143,17 +143,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
-@media (max-width: 556px) {
-  h1 {
-    font-size: 40px !important;
-  }
-  h2 {
-    font-size: 34px !important;
-  }
-  h3 {
-    font-size: 30px !important;
-  }
-}
 
 /* bootstrap overrides */
 
@@ -286,12 +275,6 @@ ul {
   position: relative;
 }
 
-@media (min-width: 768px) {
-  .navbar-nav {
-    padding-left: 6rem;
-  }
-}
-
 .logo-container {
   margin-left: auto;
   margin-right: auto;
@@ -370,22 +353,115 @@ ul {
   padding-right: 2rem;
 }
 
+@media (max-width: 1000px){
+  .font-title {
+    font-size: 500% !important;;
+    font-weight: 900;
+  }
+}
 
-.font-title {
-  font-size: 600%;
-  font-weight: 900;
+@media (max-width: 900px){
+  .font-title {
+    font-size: 400% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 700px){
+  .font-title {
+    font-size: 300% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 500px){
+  .font-title {
+    font-size: 250% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 400px){
+  .font-title {
+    font-size: 190% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 300px){
+  .font-title {
+    font-size: 140% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 200px){
+  .font-title {
+    font-size: 100% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 600px){
+  .font-info {
+    font-size: 180% !important;;
+  }
+}
+
+@media (max-width: 400px){
+  .font-info {
+    font-size: 150% !important;;
+  }
+}
+
+
+@media (max-width: 300px){
+  .font-info {
+    font-size: 120% !important;;
+  }
+}
+
+@media (max-width: 200px){
+  .font-info {
+    font-size: 170% !important;;
+  }
+}
+
+@media (max-width: 200px){
+  .font-info {
+    font-size: 100% !important;;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 556px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 34px !important;
+  }
+  h3 {
+    font-size: 30px !important;
+  }
 }
 
 .center{
   padding-left: 13%;
 }
 
-.section-i { 
-  padding-top: 10rem;
-
-}
-.section-a { 
+@media (max-width: 499px){
+  .section-i { 
+    padding-top: 4rem;
   
+  }
+}
+
+@media (min-width: 500px){
+  .section-i { 
+    padding-top: 8rem;
+  
+  }
 }
 
 .space {
@@ -508,7 +584,6 @@ ul {
   border: 3.271730661392212px solid var(--black);
   border-radius: 25px 25px 25px 25px;
   height: fixed 545px;
-  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
   border-radius: 24.537979125976562px
 }
 
