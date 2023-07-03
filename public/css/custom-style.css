@@ -353,6 +353,11 @@ ul {
   padding-right: 2rem;
 }
 
+.font-title {
+  font-size: 600% !important;;
+  font-weight: 900;
+}
+
 @media (max-width: 1000px){
   .font-title {
     font-size: 500% !important;;
@@ -485,10 +490,21 @@ ul {
 .size {
   width: 86%;
 }
-
 .imgp {
   max-height: 100%;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
+
+@media (min-width:1000px){
+  .imgp-dk {
+    max-height: 100%;
+    padding-bottom: 130px;
+    padding-top: 130px;
+  }
+}
+
+
 
 .cur {
   font-family: "NeueMontreal-BoldItalic", sans-serif !important;
@@ -593,6 +609,10 @@ ul {
   border-radius: 24.537979125976562px
 }
 
+.square-k-p {
+  padding: 55px 48.47820281982422px 55px 48.47820281982422px;
+}
+
 .square {
   max-width: 100%;
   box-sizing: var(--off-purple);
@@ -659,10 +679,6 @@ ul {
   padding: 25px;
 }
 
-.square-z {
-
-}
-
 .font-inf {
   font-size: 350%;
 }
@@ -678,6 +694,7 @@ ul {
 
 .bg {
   background-image: url("../img/background/background.png");
-  background-position: 100%;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  mix-blend-mode: darken;
 }
