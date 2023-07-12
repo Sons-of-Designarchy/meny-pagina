@@ -556,8 +556,8 @@ ul {
 }
 
 .cur-kid {
-  font-family: "NeueMontreal-BoldItalic", sans-serif !important;
-  font-size: 320%;
+  font-family: "NeueMontreal-Bold", sans-serif !important;
+  font-size: 100%;
   font:bold;
 
 }
