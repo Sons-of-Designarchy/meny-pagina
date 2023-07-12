@@ -555,6 +555,17 @@ ul {
   text-decoration: underline;
 }
 
+.cur-kid {
+  font-family: "NeueMontreal-BoldItalic", sans-serif !important;
+  font-size: 320%;
+  font:bold;
+
+}
+
+.space-tp{
+  padding-top: 2rem;
+}
+
 .bold-b {
   font-family: "NeueMontreal-Bold", sans-serif !important;
   font-size: 310%;
