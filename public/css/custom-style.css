@@ -581,6 +581,14 @@ ul {
   font-weight: 900;
 }
 
+.bold-d {
+  font-family: "NeueMontreal-Bold", sans-serif !important;
+  font-size: 140%;
+  font:bold;
+  font-weight: 900;
+  margin-top: -20px;
+}
+
 .bottom {
   margin-top: -20px;
 }
@@ -623,6 +631,29 @@ ul {
 
 .square-c {
   text-align:center;
+  padding: 25px;
+}
+
+.square-ya{
+  display: flex;
+  max-width: 100%;
+  border-radius: 25px 25px 25px 25px;
+  height: fixed 545px;
+  border-radius: 24.537979125976562px;
+  justify-content: space-around;
+}
+
+.square-ya-desc{
+  display: flex;
+  max-width: 100%;
+  border-radius: 25px 25px 25px 25px;
+  height: fixed 545px;
+  border-radius: 24.537979125976562px;
+  justify-content: space-around;
+}
+
+.square-c2{
+  justify-items: center;
   padding: 25px;
 }
 
